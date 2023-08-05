@@ -1,8 +1,6 @@
 import React from 'react';
 
 function Aside({ dogs }) {
-	console.log(dogs);
-
 	return (
 		<aside>
 			<h3>Roster:</h3>
