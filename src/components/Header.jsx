@@ -1,12 +1,14 @@
-import React from "react";
+import React from 'react';
 
-function Header() {
-  return (
-    <header>
-      <h1></h1>
-      <h2></h2>
-    </header>
-  );
+function Header({ todaysDate, name }) {
+	console.log(name);
+
+	return (
+		<header>
+			<h1>{name}</h1>
+			<h2>{todaysDate}</h2>
+		</header>
+	);
 }
 
 export default Header;
